@@ -1,7 +1,5 @@
 from datetime import date
 
-from attr import field
-
 class HouseInfo(object):
     def __init__(self, data):
         self.data = data
