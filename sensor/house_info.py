@@ -2,7 +2,7 @@ from datetime import date, datetime
 
 from attr import field
 
-class HouseInfo:
+class HouseInfo(object):
     def __init__(self, data):
         self.data = data
 
