@@ -1,6 +1,6 @@
 from datetime import date
 
-class HouseInfo(object):
+class HouseInfo:
     def __init__(self, data):
         self.data = data
 
